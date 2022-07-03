@@ -61,5 +61,36 @@ button{
 .heroSec{
     font-size: 18px;
     color: #e5e7eb;
-
 }
+.rdinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    gap: 15px;
+}
+.rdmImages{
+    display: flex;
+    justify-content: space-around ;
+    gap: 30px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    gap: 5px;
+
+  }
+  .smallerImage{
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 12px; 
+  }
+  .information{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+  }
