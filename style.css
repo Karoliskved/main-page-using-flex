@@ -16,6 +16,7 @@ a{
 .body{
     display: flex;
     flex-direction: column;
+
 }
 .header{
     background-color: #1f2937;
@@ -47,7 +48,7 @@ button{
     background-color: #3882f6;
     color: white;
     max-width: 100px;
-    border-radius: 12px;
+    border-radius: 6px;
    border-style: none;
 }
 .image{
@@ -91,7 +92,7 @@ button{
   }
   .information{
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #1F2937;
   }
 .quotebox{
@@ -116,4 +117,43 @@ button{
     display: flex;
     background-color: #e5e7eb ;
     justify-content: center;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+.productContainer{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 800px;
+    border-radius: 12px;
+}
+.sbutton{
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    height: 25px;
+    width: 100px;
+}
+.calltoa{
+    color: white;
+    font-size: 20px;
+}
+.calltext{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    height: 100px;
 }
