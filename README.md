@@ -1,3 +1,3 @@
 # odin-project2
 
-Link t oproject https://karoliskved.github.io/odin-project2/
+Link to project https://karoliskved.github.io/odin-project2/
